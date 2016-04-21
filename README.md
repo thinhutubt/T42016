@@ -1,6 +1,7 @@
 # T42016
 
-- Báo cáo tiến độ làm việc
+- Báo cáo tiến độ làm việc.
+- Sinh viên thực hiện: Thi Minh Nhựt (ĐH Kỹ thuật - Công nghệ Cần Thơ)
 
 
 * Quy ước tên file:
