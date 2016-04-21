@@ -1,6 +1,6 @@
 /***************************************
 * Tóm tắt nội dung chuẩn bị cho buổi 1 *
-* Thời gian: 21 tháng 04 năm 2016	   *
+* Thời gian: 21 tháng 04 năm 2016      *
 ****************************************/
 
 - Giới thiệu bộ  cảm biến đo mực nước với cảm biến siêu âm.
