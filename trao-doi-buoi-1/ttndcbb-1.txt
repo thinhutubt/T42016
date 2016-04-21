@@ -1,0 +1,17 @@
+/***************************************
+* Tóm tắt nội dung chuẩn bị cho buổi 1 *
+* Thời gian: 21 tháng 04 năm 2016	   *
+****************************************/
+
+- Giới thiệu bộ  cảm biến đo mực nước với cảm biến siêu âm.
+- Mô tả: đo cảm biến với cảm biến siêu âm và cho hiển thị lên LCD để quan sát.
+- Phần cứng: 
+	+ Vi điều khiển Arduino Pro Mini
+	+ Cảm biến siêu âm HY-SRF05 
+	+ Màn hình hiển thị LCD 16x02
+- Phần mềm: sử dụng ngôn ngữ lập trình C.
+	+ Viết hàm lấy khoảng cách từ cảm biến siêu âm.
+	+ Thư viện LCD giao tiếp I2C với Arduino.
+	+ Giải thuật xử lý số liệu đo.
+- Phát triển tiếp: Giao tiếp giữa Arduino và máy tính qua cổng nối tiếp RS232.
+
