@@ -5,7 +5,7 @@
 
 - Giới thiệu bộ  cảm biến đo mực nước với cảm biến siêu âm.
 - Mô tả: đo cảm biến với cảm biến siêu âm và cho hiển thị lên LCD để quan sát.
-- Phần cứng: 
+- Phần cứng:  
 	+ Vi điều khiển Arduino Pro Mini
 	+ Cảm biến siêu âm HY-SRF05 
 	+ Màn hình hiển thị LCD 16x02
