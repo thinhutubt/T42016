@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  22 APR 2016 13:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  23 APR 2016 03:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -852,7 +852,7 @@ File: images/do-muc-nuoc-voi-cam-bien-sieu-am.jpg Graphic file (type jpg)
 <use images/do-muc-nuoc-voi-cam-bien-sieu-am.jpg>
 Package pdftex.def Info: images/do-muc-nuoc-voi-cam-bien-sieu-am.jpg used on in
 put line 45.
-(pdftex.def)             Requested size: 207.47672pt x 155.68282pt.
+(pdftex.def)             Requested size: 172.89551pt x 129.73436pt.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 49.
  (./Distance_SRF.c) [1
@@ -903,7 +903,7 @@ ex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr17.pfb
 ive/texmf-dist/fonts/type1/vntex/vnr/vnr7.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/vntex/vnr/vnr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/v
 nr/vnss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on ndcbb-1.pdf (6 pages, 154642 bytes).
+Output written on ndcbb-1.pdf (6 pages, 156394 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  192 compressed objects within 2 object streams
