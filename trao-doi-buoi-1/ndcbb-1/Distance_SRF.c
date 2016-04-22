@@ -1,7 +1,6 @@
 float Distance_SRF(){
 	unsigned long times;
 	float distance;
-
 	digitalWrite(trigger,HIGH);
 	delayMicroseconds(1000); //Giu mot khoang thoi gian de phat xung di
 	digitalWrite(trigger,LOW);

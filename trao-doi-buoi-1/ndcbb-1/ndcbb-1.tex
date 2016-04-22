@@ -11,7 +11,7 @@
 \usepackage{csvsimple}
 \usepackage{listings} %Dinh dang code
 \usepackage{color} %Mau sac
-\usepackage[left=2.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry} %Canh lề trái - phải - trên - dưới cho tài liệu
+\usepackage[left=2.5cm,right=2.5cm,top=1.5cm,bottom=1.5cm]{geometry} %Canh lề trái - phải - trên - dưới cho tài liệu
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
@@ -34,8 +34,8 @@
   tabsize=2
 }
 \begin{document}
-\title{\textbf{NỘI DUNG CHUẨN BỊ BUỔI 1}}
-\author{Sinh viên thực hiện: Thi Minh Nhựt\thanks{\textsf{Email thiminhnhut@gmail.com}}}
+\title{\textbf{ĐO MỰC NƯỚC VỚI CẢM BIẾN SIÊU ÂM}}
+\author{Sinh viên thực hiện: Thi Minh Nhựt\thanks{\textsf{Email: thiminhnhut@gmail.com}}}
 \date{Ngày 21 tháng 04 năm 2016}
 \maketitle
 \section{Phần cứng}
@@ -49,11 +49,11 @@ Vi điều khiển \verb|Arduino Pro Mini|; cảm biến siêu âm \verb|HY-SRF0
 \lstinputlisting[language=C]{Distance_SRF.c}
 \subsection{Hiển thị kết quả đo lên LCD}
 Sử dụng thư viện \verb|LiquidCrystal_V1.2.1|\footnote{\textsf{https://bitbucket.org/fmalpartida/new-liquidcrystal/downloads}} viết cho \verb|Arduino|.
-\section{Giải thuật sử lý số liệu đo}
+\section{Giải thuật xử lý số liệu đo}
 \subsection{Giải thuật}
 \begin{itemize}
 \item Ta thực hiện $N$ lần đo được $N$ số liệu $A_i$ (tập $A$).
-\item Thực hiện vòng lặp giảm dần các giá trị sau số $\delta _{j}$ theo các giá trị $$\delta _{max} = {50\%, 40\%, 30\%, 20\%, 10\%, 5\%}$$
+\item Thực hiện vòng lặp giảm dần các giá trị sai số $\delta _{j}$ theo các giá trị $$\delta _{max} = {50\%, 40\%, 30\%, 20\%, 10\%, 5\%,\ldots}$$
 \item Trong mỗi vòng lặp theo giá trị $A_i$:
 \begin{itemize}
 \item Gọi giá trị trung bình khi bỏ $A_i$ là $TBT_i$
@@ -67,13 +67,13 @@ Sử dụng thư viện \verb|LiquidCrystal_V1.2.1|\footnote{\textsf{https://bit
 Qua đo đạc thực tế với cảm biến siêu âm, em thu được bảng giá trị và áp dụng giải thuật trên được kết quả như trong bảng.
 \begin{landscape}
 \csvreader[tabular=|c|l|l|l|l|l|l|l|l|,
-table head=\hline {}& Giá trị đo & Lọc$50\%$ &  Lọc $40\%$ & Lọc $30\%$ & Lọc $20\%$ & Lọc $10\%$ & Lọc $5\%$&  Trung bình\\\hline, late after line=\\\hline]%
+table head=\hline {}& \textbf{Giá trị đo} & Lọc$50\%$ &  Lọc $40\%$ & Lọc $30\%$ & Lọc $20\%$ & Lọc $10\%$ & Lọc $5\%$&  \textbf{Trung bình}\\\hline, late after line=\\\hline]%
 {data1.csv}{}%
 {\csvcoli& \csvcolii & \csvcoliii &\csvcoliv&\csvcolv&\csvcolvi&\csvcolvii&\csvcolviii&\csvcolix}
 \end{landscape}
 \begin{landscape}
 \csvreader[tabular=|c|l|l|l|l|l|l|l|l|,
-table head=\hline {}& Giá trị đo & Lọc$50\%$ &  Lọc $40\%$ & Lọc $30\%$ & Lọc $20\%$ & Lọc $10\%$ & Lọc $5\%$&  Trung bình\\\hline, late after line=\\\hline]%
+table head=\hline {}& \textbf{Giá trị đo} & Lọc$50\%$ &  Lọc $40\%$ & Lọc $30\%$ & Lọc $20\%$ & Lọc $10\%$ & Lọc $5\%$&  \textbf{Trung bình}\\\hline, late after line=\\\hline]%
 {data2.csv}{}%
 {\csvcoli& \csvcolii & \csvcoliii &\csvcoliv&\csvcolv&\csvcolvi&\csvcolvii&\csvcolviii&\csvcolix}
 \end{landscape}
